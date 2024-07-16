@@ -114,28 +114,6 @@ This project provides a Flask API for predicting the likelihood of a customer re
 
 ## Testing the API
 
-You can use `curl` or Postman to test the API endpoints.
-
-### Using `curl`
-
-1. **Predict Customer Return:**
-
-    ```bash
-    curl -X POST http://127.0.0.1:5000/predict_return -H "Content-Type: application/json" -d '{"TotalSpent": 300, "NumPurchases": 5}'
-    ```
-
-2. **Predict Repeat Purchase:**
-
-    ```bash
-    curl -X POST http://127.0.0.1:5000/predict_repeat_purchase -H "Content-Type: application/json" -d '{"CustomerID": 1, "ProductID": 10, "Quantity": 2, "Price": 30}'
-    ```
-
-3. **Recommend Products:**
-
-    ```bash
-    curl -X POST http://127.0.0.1:5000/recommend_products -H "Content-Type: application/json" -d '{"customer_id": 1}'
-    ```
-
 ### Using Postman
 
 1. Set the request method to `POST`.
