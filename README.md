@@ -65,7 +65,7 @@ This project provides a Flask API for predicting the likelihood of a customer re
 
     ```json
     {
-        "return": 1
+        "return": 0
     }
     ```
 
